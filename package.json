@@ -1,6 +1,6 @@
 {
   "name": "context-dump",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "An interactive CLI tool to create AI-friendly context from selected files.",
   "module": "index.ts",
   "main": "dist/index.js",
@@ -20,6 +20,16 @@
   "dependencies": {
     "commander": "^12.1.0",
     "inquirer": "^12.3.0"
+  },
+  "author": "Awa alwalxed@proton.me",
+  "license": "MIT",
+  "homepage": "https://github.com/alwalxed/context-dump",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/alwalxed/context-dump.git"
+  },
+  "bugs": {
+    "url": "https://github.com/alwalxed/context-dump/issues"
   },
   "keywords": [
     "CLI",
