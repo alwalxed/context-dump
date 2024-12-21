@@ -1,12 +1,12 @@
 {
   "name": "context-dump",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "An interactive CLI tool to create AI-friendly context from selected files.",
   "module": "index.ts",
   "main": "dist/index.js",
   "type": "module",
   "scripts": {
-    "build": "bun build ./index.ts --target node --outdir ./dist"
+    "build": "bun build ./index.ts --target node --outdir ./dist --minify --bundle --external path,fs,os"
   },
   "bin": {
     "context-dump": "dist/index.js"
