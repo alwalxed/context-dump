@@ -1,0 +1,48 @@
+{
+  "name": "context-dump",
+  "version": "1.0.0",
+  "description": "An interactive CLI tool to create AI-friendly context from selected files.",
+  "module": "index.ts",
+  "main": "dist/index.js",
+  "type": "module",
+  "scripts": {
+    "build": "bun build ./index.ts --target node --outdir ./dist"
+  },
+  "bin": {
+    "context-dump": "dist/index.js"
+  },
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "commander": "^12.1.0",
+    "inquirer": "^12.3.0"
+  },
+  "keywords": [
+    "CLI",
+    "AI context",
+    "project structure",
+    "file selection",
+    "JSON output",
+    "interactive",
+    "file processing",
+    "TypeScript",
+    "node.js",
+    "inquirer",
+    "commander",
+    "AI tools",
+    "context generation",
+    "code analysis",
+    "developer tools",
+    "context dump",
+    "gitignore support",
+    "file exploration",
+    "command-line interface",
+    "file filtering",
+    "AI data extraction",
+    "typescript-cli"
+  ]
+}
